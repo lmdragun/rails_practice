@@ -1,0 +1,19 @@
+<!-- <form method="post" action="/entries">
+	<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+
+	<label for="author">Author:</label>
+	<input type="string" name="entry[author]" placeholder="Enter author">
+
+	<label for="photo_url">Url:</label>
+	<input type="string" name="entry[photo_url]" placeholder="Enter photo url">
+
+	<button type="submit">Add Entry</button>
+</form> -->
+
+<%= form_for @entry do |f| %>
+<%= f.label :author %>
+<%= f.text_field :author %>
+<%= f.label :photo_url %>
+<%= f.text_field :photo_url %>
+<%= f.submit "Create Entry", id: "submit" %>
+<% end %>
