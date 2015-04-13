@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+
+body {
+  color: #040E4A;
+}
+
+ a {
+   text-decoration: none;
+   color: #076B8A;
+   padding: 2px;
+ }
+
+ 	img {
+ 		width: 500px;
+     padding: 20px;
+ 		height: auto;
+ 		margin: auto;
+ 	}
+
+ 	h2 {
+ 		margin-left: 50px;
+     font-size: 30px;
+     font-family: 'Sigmar One', cursive;
+ 	}
+
+ 	h3 {
+ 		margin-left: 75px;
+     font-size: 20px;
+     font-family: 'Sigmar One', cursive;
+ 	}
+
+   li {
+     color: #04B88B;
+   }
+.home {
+  padding: 5px;
+  font-family: 'Sigmar One', cursive;
+  margin-left: 75px;
+}
+
+.button {
+  padding:10px;
+}
